@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        .kutu{
+            width: 150px;
+            height: 150px;
+        }
+        #bir{
+            background-color: darkgreen;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            
+        }
+        #iki{
+            background-color: orangered;
+            position: static;
+        }
+        #uc{
+            background-color: darkmagenta;
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+        #dort{
+            background-color: goldenrod;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+        #bes{
+            background-color: red;
+            position: absolute;
+            top: 300px;
+            right: 300px;
+        }
+        #alti{
+            background-color: black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kutu" id="bir">Kutu 1</div>
+    <div class="kutu" id="iki">Kutu 2</div>
+    <div class="kutu" id="uc">Kutu 3</div>
+    <div class="kutu" id="dort">Kutu 1</div>
+    <div class="kutu" id="bes">Kutu 2</div>
+    <div class="kutu" id="alti">Kutu 3</div>
+</body>
+
+</html>

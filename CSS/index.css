@@ -1,0 +1,21 @@
+p{
+    color: red;
+}
+div p{
+    color: darkmagenta;
+}
+.container{
+    color: darkgoldenrod;
+}
+.container div{
+    color: burlywood;
+}
+.container div p{
+    color: darkblue;
+}
+div p{
+    color: yellow;
+}
+p + div{
+    color: darkviolet;
+}

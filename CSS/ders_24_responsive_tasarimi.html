@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=,, initial-scale=1.0">
+    <title>Responsive Tasarımı</title>
+    <style>
+       /* h1 {
+            font-size: 50px;
+            border: 10px solid goldenrod;
+
+        }
+
+        @media screen and (max-width: 800px){
+
+            h1{
+                font-size: 30px;
+                color: green;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+
+            h1{
+                font-size: 15px;
+                color: red;
+            }
+            
+        }*/
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .kutu{
+            width: 25%;
+            height: 250px;
+            background-color: orangered;
+            float: left;
+            border: 3px solid black;
+        }
+
+        @media screen and (max-width: 700px){ 
+            .kutu{
+                width: 50%;
+            }
+            
+        }
+
+        @media screen and (max-width: 600px){ 
+            .kutu{
+                width: 100%;
+                color: red;
+            }
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+    <div class="kutu"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Kullanimi</title>
+    <style>
+        .kutu{
+            width: 150px;
+            height: 150px;
+            background-color: orangered;
+            margin: 100px;
+            padding: 20px;
+        }
+        #bir{
+            border: 10px solid black;
+        }
+        #iki{
+            border: 10px solid red;
+        }
+        #uc{
+            border-width: 5px;
+            border-style: double;
+            border-color: blue;
+        }
+        #dort{
+            border-top: 15px solid red; /*tek yöne*/
+        }
+        #bes{
+            border-right-style: groove;
+            border-top: 10px solid darkmagenta;
+        }
+        #alti{
+            border: 10px solid black;
+            border-radius: 50%;/*köşeleri kıvırı*/
+        }
+    </style>
+</head>
+<body>
+    <div class="kutu" id="bir">Kutu1</div>
+    <div class="kutu" id="iki">Kutu2</div>
+    <div class="kutu" id="uc">Kutu3</div>
+    <div class="kutu" id="dort">Kutu4</div>
+    <div class="kutu" id="bes">Kutu5</div>
+    <div class="kutu" id="alti">Kutu6</div>
+</body>
+</html>
